@@ -1,0 +1,13 @@
+platform :ios, '8.1'
+use_frameworks!
+
+target 'TrackTVSample' do
+
+    # Requests Maker
+    pod 'Alamofire'
+    pod 'AlamofireImage'
+
+    # JSON Parser
+    pod 'Freddy'
+
+end
